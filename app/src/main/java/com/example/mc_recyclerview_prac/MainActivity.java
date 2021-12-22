@@ -1,6 +1,8 @@
 package com.example.mc_recyclerview_prac;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
@@ -9,6 +11,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     List<Student> studentList;
+    RecyclerView myRecyclerView;
+    RecyclerView.Adapter myRecyclerViewAdapter;
+    RecyclerView.LayoutManager layoutManager;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,5 +50,10 @@ public class MainActivity extends AppCompatActivity {
         studentList.add(new Student("BCSF18M056","Omer Sharif",R.drawable.ic_baseline_outlet_100));
 
 
+        myRecyclerView = findViewById(R.id.studentRecyclerView);
+        myRecyclerViewAdapter = new MyRecyclerViewAdapter(studentList);
+        myRecyclerView.setAdapter(myRecyclerViewAdapter);
+        layoutManager = new LinearLayoutManager(this);
+        myRecyclerView.setLayoutManager(layoutManager);
     }
 }

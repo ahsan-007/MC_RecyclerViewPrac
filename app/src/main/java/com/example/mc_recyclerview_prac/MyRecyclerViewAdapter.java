@@ -46,10 +46,9 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            this.img = img;
-            this.name = name;
-            this.rollNo = rollNo;
-            this.data = data;
+            img = itemView.findViewById(R.id.imageView);
+            name = itemView.findViewById(R.id.name);
+            rollNo = itemView.findViewById(R.id.rollNo);;
         }
     }
 }
