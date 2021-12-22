@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/drawable/ic_baseline_elderly_24.xml" value="0.1" />
+        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/drawable/ic_baseline_emoji_emotions_100.xml" value="0.1" />
         <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/drawable/ic_baseline_emoji_emotions_24.xml" value="0.22205128205128205" />
         <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/drawable/ic_baseline_outlet_24.xml" value="0.22205128205128205" />
         <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/layout/activity_main.xml" value="0.209375" />
-        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/layout/activity_rcustom_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/layout/activity_rcustom_layout.xml" value="0.18" />
+        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/layout/activity_student_item.xml" value="0.75" />
+        <entry key="..\:/Users/ahsan/AndroidStudioProjects/Mobile-Computing/MC_RecyclerView_Prac/app/src/main/res/layout/student_item.xml" value="0.209375" />
       </map>
     </option>
   </component>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_RecyclerView_Prac">
         <activity
-            android:name=".RCustomLayout"
+            android:name=".StudentItem"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
